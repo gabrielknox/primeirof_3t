@@ -1,4 +1,7 @@
-# terceiro trimestre
-conteudo : HTML,CSS e Javascript
+# Terceiro Trimestre
 
-## vitor menezes  N:36
+## Identificação
+Jesus Maringá - Nr. 50
+
+## Conteúdo
+HTML, CSS e javaScript
