@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,44 @@
     <title>Primeiro F</title>
     <script src="estudo.js"></script>
     <link rel="stylesheet" href="geral.css">
-</head>  
+</head>
+
 <body>
-    
-<div class="calculadora">
-    <div id=sptotal>
-<span id="total">total:0,00</span>
+<input type="checkbox" id="input-calcf">
+
+    <div class="calculadora">
+        
+<label for="input-calcf"><h5>financeira</h5></label>
+<div class="calcf">
+       <div id="spTotal">
+          <span id="total">total : 0,00</span>
+       </div>
+        Capital: <input id="valor" type="text"><br>
+        Juros mensais: <input id="juros" type="text"><br>
+        Nr. meses: <input id="meses" type="text"><br>
+        <button onclick="total()"> Enviar</button><br>
+        <div id="spMes">
+            <span id="mes">meses : 0,00</span>
+         </div>
 
     </div>
-    Capital: <input id="valor" type="text"><br>
-    Juros mensais: <input id="juros" type="text"><br>
-    Nr. meses: <input id="meses" type="text"><br>
-    <button onclick="total()"> Enviar</button>
-        <div id=spmes>
-    <span id="mes">meses</span>
- 
 </div>
- 
-      <br><br><br><br><br>
 
-      <span id="result">resultado: 0,00</span><br>
-      Bimestre 1: <input id="b1" type="text"><br>
-      Bimestre 2: <input id="b2" type="text"><br>
-      Bimestre 3: <input id="b3" type="text"><br>
-      Bimestre 4: <input id="b4" type="text"><br>
-      
-      <button onclick="jota()">soma das notas</button>
-      <button onclick="atoj()">calibrado</button>
+    <br><br><br><br><br>
+
+    <span id="result">resultado: 0,00</span><br>
+    Bimestre 1: <input id="b1" type="text"><br>
+    Bimestre 2: <input id="b2" type="text"><br>
+    Bimestre 3: <input id="b3" type="text"><br>
+    Bimestre 4: <input id="b4" type="text"><br>
+
+    <button onclick="jota()">soma das notas</button>
+
 
 
 
 
 
 </body>
+
 </html>
